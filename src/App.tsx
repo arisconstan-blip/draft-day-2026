@@ -932,7 +932,7 @@ export default function App() {
                     </div>
 
                     <p className="text-xs text-slate-300">
-                      Sliding past ADP {draftRecommendations.bestValue.adp} vs
+                      Sliding past ADP {(draftRecommendations.bestValue as any).adp} vs
                       Current Pick #{currentPick}. Premium market value.
                     </p>
                   </div>
