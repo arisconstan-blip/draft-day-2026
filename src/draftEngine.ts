@@ -5,6 +5,7 @@ export interface DraftPlayer {
   team: string;
   bye: number;
   projectedPoints: number;
+  adp?: number;
   tier?: number;
   upsideTag?: "High Ceiling" | "High Floor" | "Rookie Breakout" | "Handcuff";
   injuryStatus?: "Q" | "D" | "O" | "IR" | "PUP" | "SUSP";
